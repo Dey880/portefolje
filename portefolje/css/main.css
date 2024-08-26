@@ -1,0 +1,45 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: #e0e0e0;
+}
+
+#navigation{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #202020;
+    height: 30px;
+}
+
+li {
+    display: inline;
+}
+
+a{
+    color: #f23128;
+    text-decoration:underline;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    padding: 5px;
+}
+
+#nav1 > li{
+    padding-left: 10px;
+}
+
+#nav2 > li{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.spacer{
+    color: #f23128;
+}
