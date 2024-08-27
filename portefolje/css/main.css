@@ -13,10 +13,6 @@ html, body{
     height: 30px;
 }
 
-li {
-    display: inline;
-}
-
 a{
     color: #f23128;
     text-decoration:underline;
@@ -38,8 +34,45 @@ a{
 #nav2 > li{
     padding-left: 15px;
     padding-right: 15px;
+    display: inline;
 }
 
 .spacer{
     color: #f23128;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+#info1 > li, #info2 > li{
+    list-style-type: none;
+}
+
+#main{
+    background-color: #bebebe;
+    width: 70%;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#mail, #tlf{
+    color: #000000;
+}
+
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+#main > h1{
+    text-align: center;
+}
+
+#info2 >li{
+    text-align: right;
 }
