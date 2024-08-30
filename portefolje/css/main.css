@@ -2,7 +2,8 @@ html, body{
     margin: 0px;
     padding: 0px;
     border: 0px;
-    background-color: #e0e0e0;
+    background-color: #0e0e0e;
+    color: #fefefe;
 }
 
 #navigation{
@@ -51,11 +52,10 @@ a{
 }
 
 #main{
-    background-color: #bebebe;
+    background-color: #333333;
     width: 70%;
     height: 887px;
     justify-content: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -79,5 +79,5 @@ a{
 }
 
 #info2 > li > a{
-    color: #1231c7;
+    color: #f23128; /* Updated for better contrast */
 }
