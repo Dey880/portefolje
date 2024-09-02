@@ -1,4 +1,4 @@
-html, body{
+html, body {
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -6,7 +6,7 @@ html, body{
     color: #fefefe;
 }
 
-#navigation{
+#navigation {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
@@ -14,12 +14,12 @@ html, body{
     height: 30px;
 }
 
-a{
+a {
     color: #f23128;
     text-decoration:underline;
 }
 
-.flex-container, .main{
+.flex-container, .main {
     display: flex;
     justify-content: space-between;
 }
@@ -29,25 +29,25 @@ a{
     align-items: center;
 }
 
-.nav{
+.nav {
     padding: 5px;
 }
 
-#nav1 > li{
+#nav1 > li {
     padding-left: 10px;
 }
 
-#nav2 > li{
+#nav2 > li {
     padding-left: 15px;
     padding-right: 15px;
     display: inline;
 }
 
-.spacer{
+.spacer {
     color: #f23128;
 }
 
-#info1 > li, #info2 > li{
+#info1 > li, #info2 > li {
     list-style-type: none;
 }
 
@@ -55,7 +55,7 @@ a{
     text-align: left;
 }
 
-#main-kontakt{
+#main-kontakt {
     display: flex;
     flex-direction: column;
     background-color: #333333;
@@ -67,7 +67,7 @@ a{
     padding: 0 0 50px 0;
 }
 
-#main-index{
+#main-index {
     background-color: #333333;
     height: auto;
     width: auto;
@@ -77,18 +77,14 @@ a{
     text-align: center;
 }
 
-#mail, #tlf{
-    color: #000000;
-}
-
-#content-kontakt{
+#content-kontakt {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0;
     font-size: 20px;
 }
-#content-index{
+#content-index {
     display: flex;
     justify-content: space-evenly;
     margin: 0;
