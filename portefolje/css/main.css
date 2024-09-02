@@ -68,7 +68,6 @@ a{
     text-align: center;
 }
 
-
 #mail, #tlf{
     color: #000000;
 }
@@ -145,4 +144,30 @@ img {
 
 #content-om {
     display: flex;
+}
+
+#scratch {
+    border-radius: 20px;
+    margin: 100px 50px 50px 15px;
+    background-color: #202020;
+    padding: 25px;
+}
+
+#python {
+    border-radius: 20px;
+    margin: 100px 50px 50px 15px;
+    background-color: #202020;
+    padding: 25px;
+}
+
+#arduino {
+    border-radius: 20px;
+    margin: 100px 50px 50px 15px;
+    background-color: #202020;
+    padding: 25px;
+}
+
+#content-showcase {
+    display: flex;
+    justify-content: space-around;
 }
