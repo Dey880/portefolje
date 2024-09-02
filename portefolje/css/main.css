@@ -171,3 +171,7 @@ img {
     display: flex;
     justify-content: space-around;
 }
+
+.sc-el {
+    max-width: 33%;
+}
