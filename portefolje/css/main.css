@@ -185,3 +185,7 @@ h4 {
 .sc-img > div > h6 {
     margin: 0;
 }
+
+.scratch > .sc-img > div > img {
+    max-width: 100%;
+}
