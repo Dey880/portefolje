@@ -77,6 +77,12 @@ a {
     text-align: center;
 }
 
+#juliana {
+    color: #fe5151;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 2.5px;
+}
+
 #content-kontakt {
     display: flex;
     align-items: center;
