@@ -118,7 +118,7 @@ h4 {
     margin: 10px 0 10px 0;
 }
 
-img {
+#profile {
     border-radius: 500px;
     outline: 5px solid #868583;
     outline-offset: -1px;
@@ -134,7 +134,7 @@ img {
 
 #om-el1 {
     border-radius: 20px;
-    margin: 50px 50px 50px 15px;
+    margin: 50px 50px 0 15px;
     background-color: #202020;
     padding: 25px;
 
@@ -142,7 +142,7 @@ img {
 
 #om-el2 {
     border-radius: 20px;
-    margin: 100px 15px 50px 50px;
+    margin: 100px 15px 0 50px;
     background-color: #202020;
     padding: 25px;
 }
@@ -151,33 +151,37 @@ img {
     display: flex;
 }
 
-#scratch {
-    border-radius: 20px;
-    margin: 100px 50px 50px 15px;
-    background-color: #202020;
-    padding: 25px;
-}
-
-#python {
-    border-radius: 20px;
-    margin: 100px 50px 50px 50px;
-    background-color: #202020;
-    padding: 25px;
-}
-
-#arduino {
-    border-radius: 20px;
-    margin: 100px 15px 50px 50px;
-    background-color: #202020;
-    padding: 25px;
-}
-
 #content-showcase {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
 }
 
-.sc-el {
-    max-width: 33%;
+.sc-img > img {
+    border-radius: 2%;
+    border: #0e0e0e;
+    margin: 15px;
+    max-width: 70%;
+    max-height: 70%;
 }
 
+.sc-img {
+    display: flex;
+    flex-direction: row;    
+}
+
+.sc-el {
+    border-radius: 20px;
+    margin: 50px 50px 0px 50px;
+    background-color: #202020;
+    padding: 25px;
+}
+
+.python, .sc-img {
+    margin-top: 15px;
+    justify-content: space-around;
+}
+
+.sc-img > div > h6 {
+    margin: 0;
+}
