@@ -3,6 +3,7 @@ html, body {
     padding: 0px;
     background-color: #0e0e0e;
     color: #fefefe;
+    cursor: crosshair;
 }
 
 #navigation {
@@ -16,6 +17,10 @@ html, body {
 a {
     color: #f23128;
     text-decoration:underline;
+}
+
+a:hover {
+    cursor: cell;
 }
 
 .flex-container, .main {
@@ -231,4 +236,8 @@ h4 {
 
 h2 {
     font-weight: normal;
+}
+
+.arduino {
+    margin-bottom: 20px;
 }
