@@ -1,7 +1,6 @@
 html, body {
     margin: 0px;
     padding: 0px;
-    border: 0px;
     background-color: #0e0e0e;
     color: #fefefe;
 }
@@ -136,6 +135,7 @@ a {
 
     #content-om {
         flex-direction: column;
+
     }
 
     .sc-img {
@@ -181,6 +181,9 @@ h4 {
 
 #content-om {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
 }
 
 #content-showcase {
@@ -224,4 +227,8 @@ h4 {
 
 .scratch > .sc-img > div > img {
     max-width: 100%;
+}
+
+h2 {
+    font-weight: normal;
 }
