@@ -65,16 +65,20 @@ a {
     align-self: center;
     border-radius: 15px;
     padding: 0 0 50px 0;
+    min-width: 626px;
 }
 
 #main-index {
     background-color: #333333;
-    height: auto;
-    width: auto;
+    height: min-content;
+    width: max-content;
     justify-content: center;
-    padding: 50px;
+    padding: 30px;
+    margin: 30px;
     border-radius: 5px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 #juliana {
@@ -93,7 +97,9 @@ a {
 #content-index {
     display: flex;
     justify-content: space-evenly;
-    margin: 0;
+    margin: 50px;
+    align-items: center;
+    padding: 0px;
     font-size: 20px;
     margin-top: 20px;
 }
@@ -117,14 +123,26 @@ a {
 
     #main-kontakt {
         width: 100%;
+        min-width: fit-content;
     }
 
     #content-index {
         flex-direction: column;
     }
 
-    #img {
+    #profile {
+        justify-self: center;
+    }
+
+    #content-om {
+        flex-direction: column;
+    }
+
+    .sc-img {
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
+        align-self: center;
     }
     
 }
@@ -141,6 +159,9 @@ h4 {
     border-radius: 500px;
     outline: 5px solid #868583;
     outline-offset: -1px;
+    width: auto;
+    display: inline-block;
+    height: 100%;
 }
 
 #om-el1 {
@@ -178,7 +199,7 @@ h4 {
 
 .sc-img {
     display: flex;
-    flex-direction: row;    
+    justify-content: space-evenly;  
 }
 
 .sc-el {
@@ -202,10 +223,5 @@ h4 {
 }
 
 .scratch > .sc-img > div > img {
-    max-width: 100%;
-}
-
-#img {
-    display: flex;
     max-width: 100%;
 }
