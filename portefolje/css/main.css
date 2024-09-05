@@ -115,8 +115,16 @@ a {
         width: 100%;
     }
 
-    #content-kontakt {
+    #main-kontakt {
         width: 100%;
+    }
+
+    #content-index {
+        flex-direction: column;
+    }
+
+    #img {
+        justify-content: center;
     }
     
 }
@@ -133,14 +141,6 @@ h4 {
     border-radius: 500px;
     outline: 5px solid #868583;
     outline-offset: -1px;
-}
-
-#btnControl {
-    display: none;
-}
-
-#btnControl:checked + label > img {
-    border-radius: 0;
 }
 
 #om-el1 {
@@ -202,5 +202,10 @@ h4 {
 }
 
 .scratch > .sc-img > div > img {
+    max-width: 100%;
+}
+
+#img {
+    display: flex;
     max-width: 100%;
 }
