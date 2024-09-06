@@ -3,7 +3,6 @@ html, body {
     padding: 0px;
     background-color: #0e0e0e;
     color: #fefefe;
-    cursor: crosshair;
 }
 
 #navigation {
@@ -29,7 +28,7 @@ a:hover {
 }
 
 .main {
-    min-height: 600px;
+    height: 600px;
     align-items: center;
 }
 
@@ -37,13 +36,8 @@ a:hover {
     padding: 5px;
 }
 
-#nav1 > li {
-    padding-left: 10px;
-}
-
 #nav2 > li {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px 0 15px;
     display: inline;
 }
 
@@ -120,37 +114,29 @@ a:hover {
     color: #f26828;
 }
 
-@media screen and (max-width: 660px) {
-    #main {
-        width: 100%;
-    }
+#om-el1 {
+    display: flex;
+    border-radius: 20px;
+    margin: 50px 50px 0 15px;
+    background-color: #333333;
+    padding: 25px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
 
-    #main-kontakt {
-        width: 100%;
-        min-width: fit-content;
-    }
-
-    #content-index {
-        flex-direction: column;
-    }
-
-    #profile {
-        justify-self: center;
-    }
-
-    #content-om {
-        flex-direction: column;
-
-    }
-
-    .sc-img {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        align-self: center;
-    }
-    
 }
+
+#om-el2 {
+    display: flex;
+    border-radius: 20px;
+    margin: 50px 50px 0px 15px;
+    background-color: #333333;
+    padding: 25px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
 
 h5 {
     margin: 0 0 5px 0;
@@ -167,21 +153,6 @@ h4 {
     width: auto;
     display: inline-block;
     height: 100%;
-}
-
-#om-el1 {
-    border-radius: 20px;
-    margin: 50px 50px 0 15px;
-    background-color: #202020;
-    padding: 25px;
-
-}
-
-#om-el2 {
-    border-radius: 20px;
-    margin: 100px 15px 0 50px;
-    background-color: #202020;
-    padding: 25px;
 }
 
 #content-om {
@@ -213,7 +184,7 @@ h4 {
 .sc-el {
     border-radius: 20px;
     margin: 50px 50px 0px 50px;
-    background-color: #202020;
+    background-color: #333333;
     padding: 25px;
 }
 
@@ -227,7 +198,7 @@ h4 {
 }
 
 .sc-img > div > h6 {
-    margin: 0;
+    margin: 0 0 5px 0;
 }
 
 .scratch > .sc-img > div > img {
@@ -240,4 +211,95 @@ h2 {
 
 .arduino {
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    #navigation {
+        font-size: smaller;
+    }
+
+}
+
+@media screen and (max-width: 660px) {
+    #navigation{
+        width: 100vw;
+        font-size: 10pt;
+    }
+
+
+    #main {
+        width: 100%;
+    }
+
+    #main-kontakt {
+        width: 100%;
+        min-width: fit-content;
+        border-radius: 0%;
+        height: auto;
+    }
+
+    #content-index {
+        flex-direction: column;
+    }
+
+    #profile {
+        justify-self: center;
+    }
+
+    #content-om {
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .sc-img {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+    
+    #om-el1 {
+        width: auto;
+        height: auto;
+        margin: 0;
+        border-radius: 0;
+        padding: 25px 25px 0 25px;
+    }
+
+    #om-el2 {
+        width: auto;
+        height: auto;
+        margin: 0;
+        border-radius: 0;
+        padding: 0 25px 25px 25px;
+    }
+
+    #nav2 > li {
+        padding: 0 5px 0 5px;
+    }
+
+    #main-index {
+        width: 100vw;
+        height: auto;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .sc-el{
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .main {
+        height: 92.5vh;
+    }
+
+    #info2, #info1 {
+        padding: 0;
+    }
+    
 }
