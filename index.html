@@ -1,43 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hjem</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <title>Min Portefølje</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <ul id="navigation" class="flex-container">
-        <div class="nav" id="nav1">
-            <li id="hjem">
-                <a href="index.html">Hjem</a> 
-            </li>
-        </div>
-        <div class="nav" id="nav2">
-            <li id="om">
-               <a href="om.html">Om meg</a> 
-            </li>
-            <li class="spacer">|</li>
-            <li id="showcase">
-                <a href="showcase.html">Showcase</a> 
-            </li>
-            <li class="spacer">|</li>
-            <li id="kontakt">
-                <a href="kontakt.html">Kontakt</a>
-            </li>
-        </div>
-    </ul>
-    <div id="content-index">
-        <img id="profile" src="bilder/Julian-removebg-preview.png" alt="Bilde av Julian">
-        <div id="main-index">
-            <h4>Hvem er <a href="https://www.linkedin.com/in/julian-andré-tærud-pedersen-5b270a325" id="juliana">Julian André Tærud Pedersen</a>?</h4>
-            <br>
-            <h5>Julian er en elev på Bleiker vidregående skole i asker, han går <br> linjen Informasjonsteknologi. I fjord gikk han <br> IM på Akademiet Drammen.</h6>
-            <br>
-            <h5>Når Julian var ung viste han stor interesse for <br> teknologi, dette har bygd opp over årene <br> til den personen Julian er idag.</h5>
-            <br>
-            <h5>Julian har erfaring i, HTML, CSS, Python,<br>C/C++/Arduino,Adobe creativecloud apps,<br>Linux, MacOS, Windows, Spiceworks, Github<br></h5>
-        </div>
-    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="showcase.html">Mine Prosjekter</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Hei, jeg er Julian</h1>
+        <p>Lærling innen Informasjonsteknologi. Jeg er lidenskapelig opptatt av data, musikk og </p>
+        <a href="showcase.html" class="cta-btn">Se mine prosjekter</a>
+    </section>
+
+    <footer>
+        <p>Kontakt meg på <a href="mailto:Julianpedersen1@proton.me">Julianpedersen1@proton.me</a></p>
+        <p><a href="https://www.linkedin.com/in/JulianATPedersen/">LinkedIn</a> | <a href="https://github.com/Dey880">GitHub</a></p>
+    </footer>
 </body>
 </html>

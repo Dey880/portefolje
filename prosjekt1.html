@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chatter'n - En chatapp laget for skoleprosjekt, utviklet med Node.js, React og MongoDB.">
+    <title>Prosjekt 1: Chatter'n</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="showcase.html">Mine Prosjekter</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="project-details">
+        <h2>CHATTER'N</h2>
+        <p>Chatter'n er en chatapp laget som et skoleprosjekt for å konkurrere med populære plattformer som Discord. Den benytter Node.js for backend, React for frontend, og MongoDB for lagring av data som brukere, chatrom og meldinger. Jeg har også implementert en API for å generere profilbilder automatisk.</p>
+
+        <h3>Teknologier brukt:</h3>
+        <ul>
+            <li>CSS, JavaScript</li>
+            <li>Node.js</li>
+            <li>React</li>
+            <li>MongoDB</li>
+            <li>SocketIo</li>
+            <li>GitHub</li>
+        </ul>
+
+        <h3>Utfordringer og løsninger:</h3>
+        <p>En av de største utfordringene var å håndtere profilbildene som ble hentet fra et API. Jeg måtte sikre at bildene ble lastet ned korrekt og lagret på serveren, samt at de ble slettet hvis brukeren valgte å bytte bilde. Dette krevde at jeg implementerte en funksjon som både hentet bildene fra API-et og fjernet de gamle bildene når et nytt bilde ble lastet opp, for å unngå unødvendig lagring og sikre at brukerens profil alltid var oppdatert.<br>En annen utfordring var å implementere live chat-funksjonen. Her brukte jeg SocketIo for å tillate sanntidskommunikasjon mellom brukere.</p>
+
+        <h3>Skjermbilder:</h3>
+        <div class="img-container">
+            <img src="https://files.catbox.moe/0mk96h.png" alt="Skjermbilde av chatappen">
+            <img src="https://files.catbox.moe/kws27n.png" alt="Skjermbilde av chatappen">
+        </div>
+
+        <h3>Se koden:</h3>
+        <a href="https://github.com/Dey880/chatapp" target="_blank">GitHub-repo</a>
+
+        <h3>Prøv en "lokal" demo:</h3>
+        <a href="https://chat-demo-sable.vercel.app/" target="_blank">chat-demo-sable.vercel.app</a>
+        
+    </section>
+    <a href="showcase.html" class="back-btn">Tilbake til Prosjektene</a>
+
+    <footer>
+        <p>Kontakt meg på <a href="mailto:Julianpedersen1@proton.me">Julianpedersen1@proton.me</a></p>
+        <p><a href="https://www.linkedin.com/in/JulianATPedersen/">LinkedIn</a> | <a href="https://github.com/Dey880">GitHub</a></p>
+    </footer>
+</body>
+</html>

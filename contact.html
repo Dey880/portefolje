@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script>
+        function sendEmail(event) {
+            event.preventDefault();
+
+            var name = document.getElementById("name").value;
+            var message = document.getElementById("message").value;
+
+            var subject = "Kontaktforespørsel fra " + name;
+            var body = "Fra: " + name + "\n" + message;
+
+            window.location.href = "mailto:Julianpedersen1@proton.me?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="showcase.html">Mine Prosjekter</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="contact">
+        <h2>Kontakt meg</h2>
+        <p>Fyll ut skjemaet nedenfor for å komme i kontakt:</p>
+        <form onsubmit="sendEmail(event)">
+            <label for="name">Navn:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="message">Melding:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send melding</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Kontakt meg på <a href="mailto:Julianpedersen1@proton.me">Julianpedersen1@proton.me</a></p>
+        <p><a href="https://www.linkedin.com/in/JulianATPedersen/">LinkedIn</a> | <a href="https://github.com/Dey880">GitHub</a></p>
+    </footer>
+</body>
+</html>

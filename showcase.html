@@ -1,117 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ting</title>
-    <link rel="stylesheet" href="./css/main.css" />
-  </head>
-  <body>
-    <ul id="navigation" class="flex-container">
-      <div class="nav" id="nav1">
-        <li id="hjem">
-          <a href="index.html">Hjem</a>
-        </li>
-      </div>
-      <div class="nav" id="nav2">
-        <li id="om">
-          <a href="om.html">Om meg</a>
-        </li>
-        <li class="spacer">|</li>
-        <li id="showcase">
-          <a href="showcase.html">Showcase</a>
-        </li>
-        <li class="spacer">|</li>
-        <li id="kontakt">
-          <a href="kontakt.html">Kontakt</a>
-        </li>
-      </div>
-    </ul>
-    <div id="content-showcase">
-      <div class="scratch">
-        <div id="scratch" class="sc-el">
-          <h1>Scratch</h1>
-          <br />
-          <h4>
-            Scratch er en platfor for å lage spill og animasjoner i blokk-kode,
-            selv om det virker simpelt og begrensende kan det lages ganske
-            kompliserte spill og animasjoner. <br />
-            Julian har igjennom barneskolen, ungdommskolen og videregående kaget
-            fler spill og animasjoner i scratch, den mest populære er et gaske
-            simpelt spill hvor du kontrollerer en hai med musepekern og spiser
-            fisker på skjermen, idag har spillet rundt 200 visninger og heter
-            <a href="https://scratch.mit.edu/projects/367760756/">Jafsefisk</a>.
-            <br />Det mest kompliserte spillet Julian har laget med scratch er
-            <a href="https://scratch.mit.edu/projects/962681592/"
-              >Space rocks</a
-            >
-            som han lagde for et skole projekt i vg1
-          </h4>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine Prosjekter</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="showcase.html">Mine Prosjekter</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2 class="showcaseh2">Mine Prosjekter</h2>
+    <section class="projects">
+        <div class="project-card">
+            <h3>CHATTER'N</h3>
+            <p>Chatter'n - En chatapp laget for skoleprosjekt, utviklet med Node.js, React og MongoDB.</p>
+            <a href="prosjekt1.html">Se mer</a>
         </div>
-        <div class="sc-img">
-          <div>
-            <img
-              src="bilder/Screenshot 2024-09-03 090958.jpg"
-              alt="Jafsefisk"
-            />
-            <h6>Jafsefisk med 199 visninger laget av julian i 2020</h6>
-          </div>
-          <div>
-            <img
-              src="bilder/Screenshot 2024-09-03 092053.png"
-              alt="Space rocks"
-            />
-            <h6>Space rocks Julian lagde som oppgave i spilldesign i 2023</h6>
-          </div>
+        <div class="project-card">
+            <h3>Helpdesk</h3>
+            <p>En guide-nettside laget for å hjelpe brukere med å lage, dele og lese guider. Utviklet med HTML, CSS, JavaScript og backend-teknologier</p>
+            <a href="prosjekt2.html">Se mer</a>
         </div>
-      </div>
-      <div class="python">
-        <div id="python" class="sc-el">
-          <h1>Python</h1>
-          <br />
-          <h4>
-            Julian har 3 års erfaring med python og er komfortabel med bibliotek
-            som pyautogui og pygame. <br />
-            Julian har laget fler spill og verktøy i python, f.eks. Hangman,
-            Space invader, Maze Explorer, Stein saks papir og turn based text
-            adventure boss battle
-          </h4>
-        </div>
-        <div class="sc-img">
-          <div>
-            <img
-              class="space-invader"
-              src="bilder/Screenshot 2024-09-03 082255.jpg"
-              alt="space invader"
-            />
-            <h6>
-              Space Invader ble laget av julian i 2021 for fagdag i
-              programering.
-            </h6>
-          </div>
-          <div>
-            <img
-              class="maze"
-              src="bilder/Screenshot 2024-09-03 084211.jpg"
-              alt="Maze explorer"
-            />
-            <h6>Et spill Julian lagde som oppgave i vg1.</h6>
-          </div>
-        </div>
-      </div>
-      <div class="arduino">
-        <div id="arduino" class="sc-el">
-          <h1>Arduino</h1>
-          <h4>
-            En arduino er en mikro-kontroller som lar deg gi strøm til
-            forskjellige komponenter, lese fra sensorer, og gjøre kalkulasjoner.
-            Man kan programere de met et språk som lingner c/c++ og man kan
-            gjøre ganske mye med en arduino <br />
-            Julian har gjordt en del med arduinoer, f.eks. å få en knapp til å
-            telle opp på et 7-segment display.
-          </h4>
-        </div>
-      </div>
-    </div>
-  </body>
+        <!--  -->
+    </section>
+    <footer>
+        <p>Kontakt meg på <a href="mailto:Julianpedersen1@proton.me">Julianpedersen1@proton.me</a></p>
+        <p><a href="https://www.linkedin.com/in/JulianATPedersen/">LinkedIn</a> | <a href="https://github.com/Dey880">GitHub</a></p>
+    </footer>
+</body>
 </html>

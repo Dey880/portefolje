@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="En guide-nettside laget for å hjelpe brukere med å lage, dele og lese guider. Utviklet med HTML, CSS, JavaScript og backend-teknologier.">
+    <title>Prosjekt 2: Guide-nettside</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="showcase.html">Mine Prosjekter</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="project-details">
+        <h2>Guide-nettside</h2>
+        <p>Guide-nettsiden er utviklet for å gi brukere muligheten til å lage, dele og lese guider om ulike emner. Siden benytter en enkel og intuitiv design, som gjør det lett for brukere å lage innhold ved hjelp av et tekstredigeringsverktøy og deretter publisere det for andre å se. Jeg har også implementert funksjoner for kategorisering og søk, slik at brukere enkelt kan finne guider som passer deres interesser.</p>
+
+        <h3>Teknologier brukt:</h3>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Node.js (for backend)</li>
+            <li>MongoDB (for lagring av guider og brukerdata)</li>
+            <li>Express.js (for server-side logikk)</li>
+            <li>GitHub</li>
+        </ul>
+
+        <h3>Utfordringer og løsninger:</h3>
+        <p>En av de største utfordringene var å implementere en effektiv lagring og søkefunksjon for guider. For å løse dette, brukte jeg MongoDB til å lagre både guider og metadata (som kategorier og tags), og implementerte et søkeverktøy som benyttet tekstsøk i MongoDB for rask tilgang til spesifikke guider. En annen utfordring var å sørge for at innholdet som ble publisert, ble gjort trygt og sikkert, noe som krevde implementering av grunnleggende brukerautentisering og sanitizing av input for å forhindre sikkerhetsproblemer.</p>
+
+        <h3>Skjermbilder:</h3>
+        <div class="img-container">
+            <img src="https://files.catbox.moe/vwodtl.png" alt="Skjermbilde av guide-nettsiden">
+            <img src="https://files.catbox.moe/ha7i23.png" alt="Skjermbilde av guide-nettsiden">
+        </div>
+
+        <h3>Se koden:</h3>
+        <a href="https://github.com/Dey880/brukerguide" target="_blank">GitHub-repo</a>
+        
+        <a href="showcase.html" class="back-btn">Tilbake til Prosjektene</a>
+    </section>
+
+    <footer>
+        <p>Kontakt meg på <a href="mailto:Julianpedersen1@proton.me">Julianpedersen1@proton.me</a></p>
+        <p><a href="https://www.linkedin.com/in/JulianATPedersen/">LinkedIn</a> | <a href="https://github.com/Dey880">GitHub</a></p>
+    </footer>
+</body>
+</html>
